@@ -1,4 +1,4 @@
-let num = document.getElementById("decimal")
+function convert(){
 let bin = 0 
 let rem, i = 1, step = 1
 while (num !=0){    
@@ -7,4 +7,5 @@ while (num !=0){
         bin = bin + rem * i
         i = i * 10
 } /*Divides number by 2 until = to 0 and creates binary number*/
-console.log(bin)
+}
+
