@@ -1,4 +1,5 @@
-function convert(){
+function convert() {
+let num = document.getElementById("decimal").value
 let bin = 0 
 let rem, i = 1, step = 1
 while (num !=0){    
