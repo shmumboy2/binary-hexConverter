@@ -10,12 +10,14 @@
 
     <form>
 <label for="decimal">Number to convert:</label>
-<input type="number" id="decimal" name="decimal"><br><br>
+<input type="number" id="decimal" name="decimal" placeholder = "0"><br><br>
     </form>
     <br>
     <label for="binAnswer"></label>
-    <input type="button">
-    <button for="convrt">convert</button>
+    <button for="convertBinary" onclick="binaryConvert()">Convert to Binary:</button>
+    <label id="BinaryText">0</label> <br>
+    <button for="convertHexadecimal" onclick="hexConvert(document.getElementById('decimal').value)">Convert to HTML:</button>
+    <label id = "HexaDecimalText">0</label>
     <script src = 'converter.js'></script>
 </body>
 </html>

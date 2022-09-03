@@ -1,16 +1,16 @@
-function convert() {
-let num = document.getElementById("decimal").value
-let bin = 0 
-let rem, i = 1, step = 1
-while (num !=0){    
-    rem = num % 2
-    num = parseInt(num / 2)
+function binaryConvert() {
+    let num = document.getElementById("decimal").value
+    let bin = 0 
+    let rem, i = 1, step = 1
+
+    while (num !=0) {    
+        rem = num % 2
+        num = parseInt(num / 2)
         bin = bin + rem * i
         i = i * 10
-} /*Divides number by 2 until = to 0 and creates binary number*/
+    } /*Divides number by 2 until = to 0 and creates binary number*/
+    document.getElementById('BinaryText').innerHTML = bin
 }
-
-hexConvert(10000)
 
 function hexConvert(value) {
     let final = []
@@ -39,5 +39,11 @@ function hexConvert(value) {
         value = (value - value % 16) / 16
     }
     final = final.reverse()
-    console.log(final.join(''))
+    if (final.length != 0) {
+        document.getElementById('HexaDecimalText').innerHTML = final.join('')
+    }
+    else {
+        document.getElementById('HexaDecimalText').innerHTML = 0
+    }
 }
+
