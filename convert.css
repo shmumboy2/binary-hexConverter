@@ -10,22 +10,22 @@ h1 {
     color: rgb(118, 250, 118);
     font-size: 50px;
     offset-block-start: 40px;
-}
+}/*adds color and font size to title*/
 body {
     color: orange;
     font-size: 40px;
     font-family: poppinsFontMedium;
     background-color: rgb(2, 24, 221);
-}
+}/*adds color to text and adds font*/
 
 button {
     background-color: aqua;
     border-color: aqua;
     font-family: poppinsFontMedium;
-}
+}/*adds color and font to button*/
 #HexaDecimalText {
     font-size: 20px;
 }   
 #BinaryText {
     font-size: 20px;
-}
+}/*changes font size for both hex and binary labels*/
