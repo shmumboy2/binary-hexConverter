@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="convert.css">
 </head>
 <body>
+<h1>HexaDecimal and Binary Converter</h1>
+<br>
 
     <form>
 <label for="decimal">Number to convert:</label>
@@ -16,7 +19,7 @@
     <label for="binAnswer"></label>
     <button for="convertBinary" onclick="binaryConvert()">Convert to Binary:</button>
     <label id="BinaryText">0</label> <br>
-    <button for="convertHexadecimal" onclick="hexConvert(document.getElementById('decimal').value)">Convert to HTML:</button>
+    <button for="convertHexadecimal" onclick="hexConvert(document.getElementById('decimal').value)">Convert to HexaDecimal:</button>
     <label id = "HexaDecimalText">0</label>
     <script src = 'converter.js'></script>
 </body>

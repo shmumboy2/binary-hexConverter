@@ -1,0 +1,31 @@
+@font-face {
+    font-family: poppinsFontMedium;
+    src: url(./fontPoppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: poppins-SemiBold;
+    src: url(./fontPoppins\Poppins-SemiBold.ttf);
+} /*fonts used*/
+h1 {
+    color: rgb(118, 250, 118);
+    font-size: 50px;
+    offset-block-start: 40px;
+}
+body {
+    color: orange;
+    font-size: 40px;
+    font-family: poppinsFontMedium;
+    background-color: rgb(2, 24, 221);
+}
+
+button {
+    background-color: aqua;
+    border-color: aqua;
+    font-family: poppinsFontMedium;
+}
+#HexaDecimalText {
+    font-size: 20px;
+}   
+#BinaryText {
+    font-size: 20px;
+}
